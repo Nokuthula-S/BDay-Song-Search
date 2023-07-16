@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>👩🏽‍💻Final Project</title>
+  <style>
+    body {
+      padding: 10px;
+      background: linear-gradient(white, lightyellow);
+      text-align: center;
+      border: 1px rgb(22, 21, 21);
+      border-radius: 80px;
+
+
+    }
+
+    h1 {
+      color: rgb(54, 44, 44);
+      padding-top: 0 auto;
+      font-size: 50px;
+      line-height: 10px;
+      margin: 18px;
+      text-align: center;
+      font-style: normal;
+      font-family: Copperplate Gothic Light;
+    }
+
+    h2 {
+      margin: 10px;
+      font-size: 14px;
+      line-height: 48px;
+      font-weight: lighter;
+      text-align: center;
+      font-style: italic;
+      padding: 3px;
+      color: rgb(37, 17, 17);
+    }
+
+    h3 {
+      margin: 0px;
+      font-size: 24px;
+      line-height: 20px;
+      font-weight: 400;
+      text-align: center;
+      text-decoration: underline;
+      padding-top: 1.5%;
+
+    }
+
+    .Coder {
+      font-size: 12px;
+      opacity: 0.7;
+      text-align: center;
+      font-family: monospace;
+      margin: 15px;
+    }
+
+    .content {
+      font-size: 0.8em;
+      text-align: justify;
+      line-height: 1.5;
+      padding: 1px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+
+    button {
+      display: block;
+      margin: 0 auto;
+      border: 1px solid #1a64d6;
+      background: #1a64d6;
+      color: #fff;
+      font-size: 16px;
+      line-height: 22px;
+      padding: 16px 19px;
+      border-radius: 25px;
+      transition: all 200ms ease;
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+
+    }
+
+    button:hover {
+      background: rgb(187, 9, 128);
+      color: black;
+      border: 1px solid #1a64d6;
+      opacity: 0.7;
+      cursor: pointer;
+
+    }
+
+    img {
+      max-width: 80%;
+      ;
+      display: block;
+      margin: 0 auto;
+      padding: 5px;
+      mix-blend-mode: multiply;
+
+    }
+
+    mark {
+
+      color: orangered;
+      background-color: rgb(253, 228, 228);
+    }
+
+    .mainScreen {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 40px;
+      background-color: rgb(253, 228, 228);
+      border: black;
+      border-radius: 20px;
+
+    }
+
+    .artist {
+      text-decoration: none;
+
+    }
+
+    .yoursong {
+      text-decoration: none;
+      color: #fff;
+    }
+
+
+    .yoursong :hover {
+      color: #1916db;
+    }
+
+
+    .coderFooter {
+      text-decoration: none;
+
+    }
+
+    .coderFooter:hover {
+      text-decoration: underline;
+
+    }
+
+    .learnMore {
+      text-align: left;
+      font-size: small;
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="mainScreen">
+    <h1>MUS<mark>♪</mark>C</h1>
+
+    <h2>
+      "One good thing about music, when it hits you feel no pain - <a class="artist" href="https://www.bobmarley.com/"
+        target="_blank">Bob Marley</a> "
+    </h2>
+
+</body>
+
+<image src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/077/218/original/Music_2.png?1681566672"
+  alt="Colourful Music notes with Butterflies" />
+
+<hr>
+
+<h3>
+  <strong>
+    History of Music
+  </strong>
+</h3>
+
+<br>
+
+<p class="content">
+
+  Influences from the west to the east merged into the pre-Christian music of the Greeks and later the Romans. Musical
+  practices and conventions perhaps conveyed by travelling musicians brought a wealth of diversity and invention.
+  <br></br>
+  Surviving Greek notation from this period of musical history has given scientists and musicologists alike a vital clue
+  to the way that the music of the time might have sounded. It certainly indicates remarkable links to the music that
+  would follow, perhaps most notably through the use of modality in Greek music.
+  <br></br>
+  In the frescoes and in some written accounts, including the Bible, we have learned about the instruments that featured
+  in the Roman and Greek times and their significance to the cultures. The trumpet as an instrument of announcement and
+  splendid ceremony, or the lyre as an integral player in the songs of poets.
+  <br>
+
+</p>
+
+<p class="learnMore">
+
+  <a class="history" href="https://www.cmuse.org/history-of-music/" target="_blank">
+    Learn more about the history of music...
+  </a>
+</p>
+
+<br>
+
+<button>
+
+  <a class="yoursong" href="https://www.birthdayjams.com/" target="_blank"> Find Your B-Day Song</a>
+</button>
+
+<p class="Coder">
+  Coded by <a class="coderFooter" href="https://www.linkedin.com/in/nokuthula-sigubudu-90802428"
+    target="_blank">Nokuthula Sigubudu 🦋</a>
+</p>
+
+</div>
+
+<script>
+
+
+  let findSongButton = document.querySelector("button");
+
+  findSongButton.addEventListener("click", findSong);
+
+</script>
+
+</html>
